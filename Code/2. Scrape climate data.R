@@ -21,7 +21,6 @@ fire.list=read.csv("./Data/Derived/all_fires_ForAnalysis.csv")
 
 #Read in spatial data (from Jens' computer):
 #hs_patches=readOGR("../Large Files/GIS/BurnSev/Current/", layer="hs_patches") #CRS EPSG:3310, NAD83 CA Albers
-
 #Read in spatial data from Repo (public users should do this):
 hs_patches <- readRDS("./Data/hs_patches.RDS")
 #Plot a fire to make sure it worked:
